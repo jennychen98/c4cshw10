@@ -1,0 +1,12 @@
+# UMich GitLab
+Host gitlab
+HostName gitlab.com
+User git
+IdentityFile ~/.ssh/cjenn_rsa
+
+# CAEN
+Host cje
+	HostName login.engin.umich.edu
+	User cjenn
+	CONNECTIONS
+	Compression yes
